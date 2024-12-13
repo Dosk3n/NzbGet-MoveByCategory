@@ -1,0 +1,40 @@
+{
+    "main": "main.py",
+    "name": "MoveByCategory",
+    "homepage": "",
+    "kind": "POST-PROCESSING",
+    "displayName": "MoveByCategory",
+    "version": "1.0",
+    "author": "Dosk3n",
+    "license": "GNU",
+    "about": "Moves download based on category",
+    "queueEvents": "",
+    "requirements": [
+    ],
+    "description": ["This script moves a download after completion based on category name."],
+    "options": [
+        {
+            "name": "NameOfCategory",
+            "displayName": "NameOfCategory",
+            "value": "Misc",
+            "description": ["Name of the category to process"],
+            "select": []
+        },
+        {
+            "name": "NewLocationOfCategory",
+            "displayName": "NewLocationOfCategory",
+            "value": "/path/to/new/location",
+            "description": ["The path to where the download should be moved to"],
+            "select": []
+        }
+    ],
+    "commands": [
+        {
+            "name": "Test",
+            "action": "Test command",
+            "displayName": "Test",
+            "description": ["Test the extension"]
+        }
+    ],
+    "taskTime": ""
+}
